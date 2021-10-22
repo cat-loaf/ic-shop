@@ -7,7 +7,6 @@ span > * {
   padding:0;
 }
 
-
 .centered {
   text-align:center;
   align-self: center;
@@ -104,4 +103,20 @@ main {
   box-shadow: inset 0px 0px 25px 25px #3b0a5c59;
 
   color:#fff;
+}
+
+footer {
+  position: fixed;
+
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height:50px;
+
+  background: #490073;
+  background: linear-gradient(0deg, #490073 0%, rgba(153,#992bff
+  
+  color: white;
+  text-align: center;
 }
