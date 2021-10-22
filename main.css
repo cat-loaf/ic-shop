@@ -115,10 +115,10 @@ footer {
   height:50px;
 
   background: #490073;
-  background: linear-gradient(0deg, #490073 0%, rgba(153,#992bff
+background: linear-gradient(0deg, #490073 0%, #992bff 100%);
   
   color: white;
   text-align: center;
     
-  text-shadow: 1px 5px 5px #8a69a7;
+  text-shadow: 1px 5px 5px #621ca0;
 }
