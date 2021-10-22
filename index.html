@@ -12,13 +12,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" type="text/css" href="main.css">
-	
+  
   <link rel="icon" type="image/x-icon" href="images/favIcon.png"/>
 
   <title>The Marble Ice-Cream Shop</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <script src="https://kit.fontawesome.com/143bebfcbd.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -32,15 +33,15 @@
       <br>
     
     <div id="navLinks">
-      <a href="index.html">
+      <a href="index.html" id="home-link" class="animate__animated">
         <i class="fas fa-home"></i> 
         Home
       </a> |
-      <a href="#">
+      <a href="#" id="buy-link" class="animate__animated">
         <i class="fas fa-shopping-cart"></i> 
         Buy
       </a> |
-      <a href="#">
+      <a href="#" id="gallery-link" class="animate__animated">
         <i class="fas fa-photo-video"></i>
         Gallery
       </a> 
@@ -53,17 +54,37 @@
     <h1 class="centered">What is Marble Ice Cream?</h1>
     <hr class="hrAlt">
     <p class="centered">
-      <ul style="list-style:circle; text-align:center;">
+      <ul style="list-style:none; text-align:center;">
         <li>
           Marble Ice Cream is a desserts shop based in 
           <a class="contentLink" href="https://www.google.com/maps/place/Tampa,+FL/" target="_blank">
             Tampa, FL 
-            <i class="fas fa-external-link-alt"></i>
+            <i class="fas fa-map-marker-alt"></i>
           </a>.
         </li>
 
         <li> 
           We provide lots of different desserts, but we are best known for our <b>Ice Cream</b>!
+        </li>
+        
+        <li class="pc-left">
+          <img id="dessertExample" src="images/StrawberrySundae.jpg" alt="Picture of a strawberry ice-cream sundae">
+          <span id="sundaeExplanation">
+            <p>
+              This is our <cust class="strawberry bolded"><cust class="stroked">Strawbeeerry Sundae</cust>&trade;</cust>, one of our most bought specials! We sell these every Sunday on a discount. You can buy this for &dollar;2.59 every Sunday, and &dollar;5.99 every other day.
+              <br> <br>
+              It contains 
+                <cust class="strawberry bolded stroked">Strawberries</cust>, 
+                Whipped Cream, an 
+                  <cust class="rainbow-text bolded stroked">Ice Cream</cust> 
+                with a flavor of your choosing, and our special <i>super secret</i> ingredient!
+            </p> <br class="mobile-only">
+          </span>
+        </li>
+        <li class="pc-right">
+          <span id="sundaeExplanation" style="margin:0; padding:0; ">
+              Our store is a family owned store, and it was founded in 1902, (more than a hundred years ago!)
+          </span>
         </li>
       </ul>
     </p>
@@ -78,6 +99,8 @@
       <aside style="display:inline-block; float:right;">Customer Reviews</aside>  
           
   -->
-  <footer>Footer</footer>
+  <<footer>Footer</footer>
+
+  <script src="main.js"></script>
 </body>
 </html>

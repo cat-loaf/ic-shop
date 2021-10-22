@@ -63,7 +63,7 @@ nav {
 }
 
 #navLinks a:hover, #navLinks a:focus {
-  color:#7f21d1;
+  color:#dddddd;
 }
 
 hr {
@@ -103,6 +103,7 @@ main {
   box-shadow: inset 0px 0px 25px 25px #3b0a5c59;
 
   color:#fff;
+  overflow: hidden;
 }
 
 footer {
@@ -123,3 +124,79 @@ footer {
     
   text-shadow: 1px 5px 5px #621ca0;
 }
+
+
+#dessertExample {
+  border-radius:20px;
+  width:500px;
+  float:right;
+  padding:10px;
+  margin:10px;
+}
+
+#sundaeExplanation {
+  font-size:1.5rem; 
+  
+}
+
+#sundaeExplanation > * {
+  text-align:left !important;
+}
+
+cust.rainbow-text {
+  background-image: linear-gradient(to right,#f5a6f5,#66f166,#e7e768,#e9a82f,#ee5050);   
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent;
+
+  display: inline-block;
+  text-shadow:none;
+}
+
+cust.stroked {
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: rgb(14, 14, 14);
+}
+
+cust.strawberry {
+  color:#e66590;
+}
+
+cust.bolded {
+  font-weight:700;
+}
+
+@media only screen and (max-width: 600px) {
+  #dessertExample {
+    float:none;
+    max-width:80%;
+    margin-right:20px;
+  }
+
+  .pc-only {
+    visibility: hidden;
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #sundaeExplanation {
+    position: relative;
+    top:100px;
+  }
+
+  .pc-left {
+    float:left;
+    max-width:65%;
+  }
+
+  .pc-right {
+    float:right;
+    max-width:35%;
+  }
+
+  .mobile-only {
+    visibility: hidden;
+    display:none;
+  }
+}
+
