@@ -112,11 +112,12 @@ footer {
   bottom: 0;
 
   width: 100%;
-  height:50px;
+  height:7.5vh;
 
   background: #490073;
-background: linear-gradient(0deg, #490073 0%, #992bff 100%);
-  
+
+  border-radius: 40px 40px 0 0;
+
   color: white;
   text-align: center;
     
