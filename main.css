@@ -1,0 +1,73 @@
+:root * {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color:rgb(188, 156, 216);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.headImage {
+  width:85%; 
+  height:auto;
+  
+  max-width: 700px;
+  min-width: 20%;
+  
+}
+
+nav {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+
+#navLinks {
+  font-size:20px;
+  color:rgb(76, 8, 136);
+  text-shadow: 1px 5px 5px rgb(138, 105, 167);
+  font-weight:600;
+
+}
+
+#navLinks > * {
+  padding:1.5vw;
+  
+  transition: all 250ms ease-in-out;  
+}
+
+#navLinks a:hover, #navLinks a:focus {
+  color:rgb(127, 33, 209);
+}
+
+hr {
+  border:none;
+  border-radius:25px;
+
+  height:10px;
+
+  min-width:75%;
+  max-width: 90%;
+
+  margin:auto;
+
+  background-color:rgb(100, 23, 110);
+  box-shadow: 1px 5px 7px rgb(98, 57, 117);
+}
+
+main {
+  margin:1vh 4vw;
+  padding:2.5vh 2vw;
+
+  background-color:rgb(113, 49, 216);
+  border-radius: 25px;
+
+  color:#fff;
+}
