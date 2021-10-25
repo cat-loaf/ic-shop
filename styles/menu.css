@@ -1,0 +1,36 @@
+hr.hrAlt2 {
+  background-color: #9cafd8; 
+  
+  min-width:20%;
+  width:20%; 
+  height:7.5px;
+
+  box-shadow: 1px 5px 5px #3078bb;
+}
+
+aside.menuItems {
+  background-image:linear-gradient(0deg, #0a37b3c0, #37ace2b0);
+  color:white;
+
+
+  margin:1vh 4vw;
+  padding:2.5vh 2vw;
+  
+  text-shadow: 1px 5px 5px #1c60a0;
+  
+  border-radius: 25px;
+  box-shadow: inset 0px 0px 25px 25px #0a305c59;
+
+  overflow: hidden;
+}
+
+div.menuItems {
+  display: flex;
+}
+
+table.menu {
+  text-align:left;
+  font-size:1.2em;
+
+  width:100%;
+}

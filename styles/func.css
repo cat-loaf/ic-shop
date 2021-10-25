@@ -1,0 +1,152 @@
+:root * {
+  font-family: Tahoma, sans-serif;
+}
+
+
+body {
+  background:linear-gradient(180deg, #bc9cd8, #9cbdd8);
+}
+
+
+h1 {
+  --s:3em;
+  font-size:var(--s);
+}
+
+
+hr {
+  border:none;
+  border-radius:25px;
+
+  height:10px;
+
+  min-width:75%;
+  max-width: 90%;
+
+  margin:auto;
+
+  background-color:#64176e;
+  box-shadow: 1px 5px 7px #623975;
+}
+
+
+.space { 
+    --emp:300px;
+    margin-top: var(--emp); 
+}
+
+
+cust.rainbow-text {
+  background-image: linear-gradient(to right,#f5a6f5,#66f166,#e7e768,#e9a82f,#ee5050);   
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent;
+
+  display: inline-block;
+  text-shadow:none;
+}
+
+cust.stroked {
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: rgb(14, 14, 14);
+}
+
+cust.strawberry {
+  color:#e66590;
+}
+
+cust.bolded {
+  font-weight:700;
+}
+
+.money {
+  font-weight:650;
+  color:#0ae90a;
+}
+
+
+.centered {
+  text-align:center;
+  align-self: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #dessertExample {
+    float:none;
+    max-width:80%;
+    margin-right:20px;
+  }
+
+  .pc-only {
+    visibility: hidden;
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #sundaeExplanation {
+    position: relative;
+    top:100px;
+  }
+
+  .pc-left {
+    float:left;
+    max-width:65%;
+  }
+
+  .pc-right {
+    float:right;
+    max-width:35%;
+  }
+
+  #sundaeExplanation > * {
+    text-align:center;
+    margin-right:20px;
+  }
+
+  a.cell:hover {
+    font-size:1.75em;
+  }
+
+  table.menu {
+    font-size:2em;
+  }
+
+  aside.menuItems {
+    display:inline-block;
+    max-width:65%;
+    min-width:50%;
+    margin:1vh 4vw 0vh 0vw !important;
+  }
+
+  article#comments {
+    max-width:30%;
+    margin:1vh 2vw 0vh 4vw !important;
+  } 
+
+  .mobile-only {
+    visibility: hidden;
+    display:none;
+  }
+}
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(126, 126, 126);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(70, 70, 70);
+  border-radius: 10px;
+}

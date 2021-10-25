@@ -1,0 +1,30 @@
+article#comments {
+  background-image:linear-gradient(180deg, #0ab36dc0, #37e2c5);
+  color:white;
+
+
+  margin:1vh 4vw;
+  padding:2.5vh 2vw;
+  
+  text-shadow: 1px 5px 5px #1c60a0;
+  
+  border-radius: 25px;
+
+  box-shadow: inset 0px 0px 25px 25px #0a305c59;
+
+  overflow: hidden;
+
+}
+
+
+.fa-heart {
+  color:#f81818;
+}
+
+.fa-burn {
+  color:#ff7e05;
+}
+
+.fa-thumbs-up {
+  color:#006af5;
+}

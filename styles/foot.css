@@ -1,0 +1,34 @@
+
+footer {
+  position: fixed;
+
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height:7.5vh;
+
+  background: #701ba1;
+
+  border-radius: 30px 30px 0 0;
+
+  color: white;
+  text-align: center;
+    
+  text-shadow: 1px 5px 5px #621ca0;
+}
+
+a.cell {
+  display:inline-block;
+  margin:2vh 3vw 2vh 3vw;
+  font-size:1.25em;
+  color:#fff;
+
+  transition:all .25s;
+
+  --hoverColor:#b87ad4;
+}
+a.cell:hover {
+  font-size:1.4em;
+  color:var(--hoverColor);
+}
