@@ -48,7 +48,7 @@
         <i class="fas fa-shopping-cart"></i> 
         Buy
       </a> |
-      <a href="#" id="gallery-link" class="animate__animated">
+      <a href="#" id="gallery-link" class="animate__animated ">
         <i class="fas fa-photo-video"></i>
         Gallery
       </a> 
@@ -57,35 +57,38 @@
  
   <br> <hr> <br>
 
-  <main class="animate_animated animate__slideInUp">
+  <main>
     <h1 class="centered">What is Marble Ice Cream?</h1>
     <hr class="hrAlt">
     <p class="centered">
       <ul style="list-style:none; text-align:center;">
-        <li>
-          <b style="color:#cb6ded;">Marble Ice Cream
-            <i class="fas fa-ice-cream"></i>
-          </b> is a desserts cafe based in 
-          <a class="contentLink" href="https://www.google.com/maps/place/Tampa,+FL/" target="_blank">
-            Tampa, FL 
-            <i class="fas fa-map-marker-alt"></i>
-          </a>.
-        </li>
+        <caption>
+          <li>
+            <b style="color:#cb6ded;">Marble Ice Cream
+              <i class="fas fa-ice-cream"></i>
+            </b> is a desserts cafe based in 
+            <a class="contentLink" href="https://www.google.com/maps/place/Tampa,+FL/" target="_blank">
+              Tampa, FL 
+              <i class="fas fa-map-marker-alt"></i>
+            </a>.
+          </li>
 
-        <li> 
-          We provide lots of different desserts, but we are best known for our 
-            <b>Ice Cream!</b>
-        </li>
-        
+          <li> 
+            We provide lots of different desserts, but we are best known for our 
+              <b>Ice Cream!</b>
+          </li>
+        </caption>
         <li class="pc-left">
-          <img id="dessertExample" src="images/StrawberrySundae.jpg" alt="Picture of a strawberry ice-cream sundae">
+          <img id="dessertExample" 
+              src="images/StrawberrySundae.jpg" 
+              alt="Picture of a strawberry ice-cream sundae">
+              
           <span id="sundaeExplanation">
             <p>
               This is our 
-              <cust class="strawberry bolded stroked">
-                  Strawbeeerry Swirl
-                  <sup><i class="fas fa-trademark"></i></sup>
-              </cust>, one of our most bought specials! We sell these every Sunday on a discount. You can buy this for 
+              <cust class="strawberry"><cust class="bolded stroked">
+              Strawbeeerry Swirl 
+            </cust>&trade;</cust>, one of our most bought specials! We sell these every Sunday on a discount. You can buy this for 
               <cust class="money stroked">&dollar;2.59</cust> 
                 every Sunday, and 
               <cust class="money stroked">&dollar;5.99</cust> 
@@ -101,10 +104,9 @@
         </li>
         <li class="pc-right">
           <span id="sundaeExplanation" style="margin:0; padding:0; ">
-              <p id="expBorder">Our store is a family owned store, and it was founded in 
+              <p id="">Our store is a family owned store, and it was founded in 
                 <cust class="stroked bolded">1902</cust>, (more than a <i>hundred</i> years ago!)
-                <hr class="pc-only" style="display:inline-block;">
-                <br>
+                <hr class="pc-only" style="display:inline-block; margin: 40px 0px 20px 0px;">
                 <img src="images/favIcon.png" class="storeIcon pc-only" alt="Icon of our store">
               </p>
           </span>
@@ -114,25 +116,82 @@
     </p>
   </main>
 
-  <div class="menuItems">
+  <br>
+
+  <aside class="menuItems pc-right">
     <h1 class="centered">Our Menu</h1>
     <hr class="hrAlt2">
-    <p>
-      <ol>
-        <li>Strawbeeerry Swirl</li>
+    <table class="menu" style="margin:25px 10px 0px 10px;">
+      <tr >
+        <th>
+          <i class="fas fa-hashtag"></i>
+        </th>
+        <th>
+          Item Name <i class="fas fa-utensils"></i>
+        </th>
+        <th>
+          Price <i class="fas fa-dollar-sign"></i>
+        </th>
+      </tr>
+      <tr>
+        <td> 1 </td>
+        <td>
+          <cust class="strawberry"><cust class="bolded stroked">
+              Strawbeeerry Swirl 
+            </cust>&trade;</cust>
+        </td>
+        <td class="money">&dollar; 2.99</td>
+      </tr>
+    </table>
+  </aside>
 
-      </ol>
-    </p>
-  </div>
+  <br class="mobile-only">
 
+  <article id="comments" class="pc-left">
+    <h1></h1>
+    <ul>
+      <li>
+        <q>
+          The best Ice-Cream I've ever had, 10/10 
+            <i class="fas fa-heart"></i>
+        </q>
+      </li>
+      <li>
+        <q>
+          When you're in Tampa Bay, you must come here. It is simply the best dessert shop anywhere in the world!
+            <i class="fas fa-burn"></i>
+        </q>
+      </li>
+      <li>
+        <q>
+          If I would have to rate all the food I've ever eaten, the Strawbeeerry Swirl would be at #1. 
+            <i class="fas fa-thumbs-up"></i>
+        </q>
+      </li>
+    </ul>
+  </article>
+  
 
   <br>
-  <!--  fix this   
-      <aside style="display:inline-block; float:right;">Customer Reviews</aside>  
-          
-  -->
-  <div class="space"></div>
-  <footer>Footer</footer>
+  <div class="space" style="--emp:600px;"></div>
+  
+  <footer>
+    <div id="footerContentHolder">
+      <a href="index.html" class="cell">
+        <i class="fas fa-home"></i>
+        Home
+      </a> |
+      <a href="#" class="cell" style="--hoverColor:#317df7;">
+        <i class="fas fa-at"></i> 
+        Contact
+      </a> |
+      <a href="#" class="cell" style="--hoverColor:#31f773;">
+        <i class="fas fa-globe"></i>
+        Address
+      </a> 
+      
+    </div>
+  </footer>
 
   <script src="main.js"></script>
 </body>

@@ -25,7 +25,9 @@ body {
 }
 
 
-
+h1 {
+  font-size:3em;
+}
 
 
 a {
@@ -154,9 +156,9 @@ footer {
   width: 100%;
   height:7.5vh;
 
-  background: #490073;
+  background: #701ba1;
 
-  border-radius: 40px 40px 0 0;
+  border-radius: 30px 30px 0 0;
 
   color: white;
   text-align: center;
@@ -164,8 +166,20 @@ footer {
   text-shadow: 1px 5px 5px #621ca0;
 }
 
+a.cell {
+  display:inline-block;
+  margin:2vh 3vw 2vh 3vw;
+  font-size:1.25em;
+  color:#fff;
 
+  transition:all .25s;
 
+  --hoverColor:#b87ad4;
+}
+a.cell:hover {
+  font-size:1.4em;
+  color:var(--hoverColor);
+}
 
 
 #dessertExample {
@@ -187,7 +201,7 @@ footer {
 }
 
 p#expBorder {
-  background:linear-gradient(90deg,#411b64,#1856b3);
+  /*background:linear-gradient(90deg,#411b64,#75335c);*/
   /*border: 5px #4e1b64 solid;*/
   /*border-radius:41% 59% 37% 63% / 34% 33% 67% 66%;*/
 
@@ -197,13 +211,12 @@ p#expBorder {
 
 
 
-div.menuItems {
+aside.menuItems {
   background-image:linear-gradient(0deg, #0a37b3c0, #37ace2b0);
   color:white;
 
 
   margin:1vh 4vw;
-  margin-top:50px;
   padding:2.5vh 2vw;
   
   text-shadow: 1px 5px 5px #1c60a0;
@@ -214,7 +227,41 @@ div.menuItems {
   overflow: hidden;
 }
 
+div.menuItems {
+  display: flex;
+}
 
+
+
+
+article#comments {
+  background-image:linear-gradient(180deg, #0a37b3c0, #37ace20e);
+  color:white;
+
+
+  margin:1vh 4vw;
+  padding:2.5vh 2vw;
+  
+  text-shadow: 1px 5px 5px #1c60a0;
+  
+  border-radius: 25px;
+
+  overflow: hidden;
+}
+
+
+
+
+/*table {
+  border:5px #57adfd solid;
+  border-radius: 15px;
+}*/
+table.menu {
+  text-align:left;
+  font-size:1.2em;
+
+  width:100%;
+}
 
 
 
@@ -240,14 +287,18 @@ cust.bolded {
   font-weight:700;
 }
 
-cust.money {
+.money {
   font-weight:650;
   color:#0ae90a;
 }
 
 
 
-.space { margin-top: 300px; }
+.space { 
+    --emp:300px;
+    margin-top: var(--emp); 
+  }
+
 
 
 
@@ -285,9 +336,45 @@ cust.money {
     margin-right:20px;
   }
 
+  a.cell:hover {
+    font-size:1.75em;
+  }
+
+  table.menu {
+    font-size:2em;
+  }
+
+  aside.menuItems {
+    display:inline-block;
+    max-width:65%;
+    min-width:50%;
+    margin:1vh 4vw 0vh 0vw !important;
+  }
+
+  article#comments {
+    max-width:30%;
+    margin:1vh 2vw 0vh 4vw !important;
+  } 
+
   .mobile-only {
     visibility: hidden;
     display:none;
   }
 }
 
+
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(126, 126, 126);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(70, 70, 70);
+  border-radius: 10px;
+}
