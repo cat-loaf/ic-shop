@@ -2,6 +2,10 @@
   font-family: Tahoma, sans-serif;
 }
 
+
+
+
+
 span > * {
   margin:0;
   padding:0;
@@ -12,9 +16,17 @@ span > * {
   align-self: center;
 }
 
+
+
+
+
 body {
-  background-color:#bc9cd8;
+  background:linear-gradient(180deg, #bc9cd8, #9cbdd8);
 }
+
+
+
+
 
 a {
   text-decoration: none;
@@ -36,6 +48,8 @@ a.contentLink {
   max-width: 700px;
   min-width: 20%;
 }
+
+
 
 
 
@@ -66,6 +80,10 @@ nav {
   color:#dddddd;
 }
 
+
+
+
+
 hr {
   border:none;
   border-radius:25px;
@@ -91,6 +109,19 @@ hr.hrAlt {
   box-shadow: 1px 5px 5px #621ca0;
 }
 
+hr.hrAlt2 {
+  background-color: #9cafd8; 
+  
+  min-width:20%;
+  width:20%; 
+  height:7.5px;
+
+  box-shadow: 1px 5px 5px #3078bb;
+}
+
+
+
+
 
 main {
   margin:1vh 4vw;
@@ -105,6 +136,14 @@ main {
   color:#fff;
   overflow: hidden;
 }
+
+
+main img.storeIcon {
+  margin:20px;
+  max-width:25vw;
+}
+
+
 
 footer {
   position: fixed;
@@ -126,6 +165,9 @@ footer {
 }
 
 
+
+
+
 #dessertExample {
   border-radius:20px;
   width:500px;
@@ -140,8 +182,41 @@ footer {
 }
 
 #sundaeExplanation > * {
-  text-align:left !important;
+  text-align:left;
+  margin-right:20px;
 }
+
+p#expBorder {
+  background:linear-gradient(90deg,#411b64,#1856b3);
+  /*border: 5px #4e1b64 solid;*/
+  /*border-radius:41% 59% 37% 63% / 34% 33% 67% 66%;*/
+
+  border-radius:25px;
+  padding:20px;
+}
+
+
+
+div.menuItems {
+  background-image:linear-gradient(0deg, #0a37b3c0, #37ace2b0);
+  color:white;
+
+
+  margin:1vh 4vw;
+  margin-top:50px;
+  padding:2.5vh 2vw;
+  
+  text-shadow: 1px 5px 5px #1c60a0;
+  
+  border-radius: 25px;
+  box-shadow: inset 0px 0px 25px 25px #0a305c59;
+
+  overflow: hidden;
+}
+
+
+
+
 
 cust.rainbow-text {
   background-image: linear-gradient(to right,#f5a6f5,#66f166,#e7e768,#e9a82f,#ee5050);   
@@ -165,7 +240,16 @@ cust.bolded {
   font-weight:700;
 }
 
+cust.money {
+  font-weight:650;
+  color:#0ae90a;
+}
+
+
+
 .space { margin-top: 300px; }
+
+
 
 @media only screen and (max-width: 600px) {
   #dessertExample {
@@ -194,6 +278,11 @@ cust.bolded {
   .pc-right {
     float:right;
     max-width:35%;
+  }
+
+  #sundaeExplanation > * {
+    text-align:center;
+    margin-right:20px;
   }
 
   .mobile-only {

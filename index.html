@@ -17,9 +17,16 @@
 
   <title>The Marble Ice-Cream Shop</title>
 
+  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <script src="https://kit.fontawesome.com/143bebfcbd.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <!--<script src="https://kit.fontawesome.com/143bebfcbd.js" crossorigin="anonymous"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
 </head>
 
 <body>
@@ -56,7 +63,9 @@
     <p class="centered">
       <ul style="list-style:none; text-align:center;">
         <li>
-          Marble Ice Cream is a desserts shop based in 
+          <b style="color:#cb6ded;">Marble Ice Cream
+            <i class="fas fa-ice-cream"></i>
+          </b> is a desserts cafe based in 
           <a class="contentLink" href="https://www.google.com/maps/place/Tampa,+FL/" target="_blank">
             Tampa, FL 
             <i class="fas fa-map-marker-alt"></i>
@@ -64,14 +73,23 @@
         </li>
 
         <li> 
-          We provide lots of different desserts, but we are best known for our <b>Ice Cream</b>!
+          We provide lots of different desserts, but we are best known for our 
+            <b>Ice Cream!</b>
         </li>
         
         <li class="pc-left">
           <img id="dessertExample" src="images/StrawberrySundae.jpg" alt="Picture of a strawberry ice-cream sundae">
           <span id="sundaeExplanation">
             <p>
-              This is our <cust class="strawberry bolded"><cust class="stroked">Strawbeeerry Sundae</cust>&trade;</cust>, one of our most bought specials! We sell these every Sunday on a discount. You can buy this for &dollar;2.59 every Sunday, and &dollar;5.99 every other day.
+              This is our 
+              <cust class="strawberry bolded stroked">
+                  Strawbeeerry Swirl
+                  <sup><i class="fas fa-trademark"></i></sup>
+              </cust>, one of our most bought specials! We sell these every Sunday on a discount. You can buy this for 
+              <cust class="money stroked">&dollar;2.59</cust> 
+                every Sunday, and 
+              <cust class="money stroked">&dollar;5.99</cust> 
+                every other day.
               <br> <br>
               It contains 
                 <cust class="strawberry bolded stroked">Strawberries</cust>, 
@@ -83,15 +101,29 @@
         </li>
         <li class="pc-right">
           <span id="sundaeExplanation" style="margin:0; padding:0; ">
-              Our store is a family owned store, and it was founded in 1902, (more than a hundred years ago!)
+              <p id="expBorder">Our store is a family owned store, and it was founded in 
+                <cust class="stroked bolded">1902</cust>, (more than a <i>hundred</i> years ago!)
+                <hr class="pc-only" style="display:inline-block;">
+                <br>
+                <img src="images/favIcon.png" class="storeIcon pc-only" alt="Icon of our store">
+              </p>
           </span>
+          
         </li>
       </ul>
     </p>
-
-
   </main>
 
+  <div class="menuItems">
+    <h1 class="centered">Our Menu</h1>
+    <hr class="hrAlt2">
+    <p>
+      <ol>
+        <li>Strawbeeerry Swirl</li>
+
+      </ol>
+    </p>
+  </div>
 
 
   <br>
