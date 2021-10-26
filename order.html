@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--
+    Author: Granth J
+    Topic: Marble Ice Cream
+    Date: 10/21/21
+    -->
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/comm.css">
+	<link rel="stylesheet" type="text/css" href="styles/foot.css">
+	<link rel="stylesheet" type="text/css" href="styles/func.css">
+	<link rel="stylesheet" type="text/css" href="styles/menu.css">
+	<link rel="stylesheet" type="text/css" href="styles/navi.css">
+
+
+	<link rel="icon" type="image/x-icon" href="images/favIcon.png" />
+
+	<title>The Marble Ice-Cream Shop</title>
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+	<!--<script src="https://kit.fontawesome.com/143bebfcbd.js" crossorigin="anonymous"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+	 crossorigin="anonymous" referrerpolicy="no-referrer">
+	</script>
+
+
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+  
+</head>
+
+<body>
+	<nav class="animate__animated animate__bounceInDown">
+		<header>
+			<a href="index.html">
+				<img class="headImage" src="images/title.png" alt="Website Head Image">
+      </a>
+    </header>
+      
+      <br>
+    
+    <div id="navLinks">
+      <a href="index.html" id="home-link" class="animate__animated">
+        <i class="fas fa-home"></i> 
+        Home
+      </a> |
+      <a href="order.html" id="buy-link" class="animate__animated">
+        <i class="fas fa-shopping-cart"></i> 
+        Buy
+      </a> |
+      <a href="gallery.html" id="gallery-link" class="animate__animated ">
+        <i class="fas fa-photo-video"></i>
+        Gallery
+      </a> 
+    </div>
+  </nav>
+ 
+  <br> <hr> <br>
+
+  <main>
+    <h1 class="centered">Order Form</h1>
+    <hr class="hrAlt">
+      <div id="ff-compose"></div>
+      <script async defer src="https://formfacade.com/include/106018712097054042100/form/1FAIpQLSfoWmBgQqZPEF5Tb2C4ptGIZZ2KnbLf6_0TE-ZY8-SaIYovPA/classic.js?div=ff-compose"></script>
+  </main>
+
+  <div class="space pc-only" style="--emp:200px;"></div>
+  <div class="space mobile-only" style="--emp:100px;"></div>
+  
+  <footer>
+    <div id="footerContentHolder">
+      <a href="index.html" class="cell">
+        <i class="fas fa-home"></i>
+        Home
+      </a> |
+      <a href="https://github.com/cat-loaf/ic-shop" class="cell" style="--hoverColor:#317df7;">
+        <i class="fas fa-at"></i> 
+        Contact
+      </a> |
+      <a href="https://www.google.com/maps/place/Tampa,+FL/" class="cell" style="--hoverColor:#31f773;" target="_blank">
+        <i class="fas fa-globe"></i>
+        Address
+      </a> 
+      
+    </div>
+  </footer>
+
+  <style>
+    .btn-primary {
+      border-radius:25px;
+      font-family: Tahoma, sans-serif;
+      background-color:#440f63;
+      border:rgba(0,0,0,0);
+      color:#fff;
+    }
+    .ff-compose {
+      margin:5px 20px 5px;
+    }
+    form * {
+      text-align:center;
+    }
+    img[src*="formfacade.com/logo/madewith/formfacade.svg"] {
+      display:none;
+      visibilty:none;
+    }
+
+    div>textarea {
+      max-width:85%;
+      margin:5px 20px 5px;
+      text-align:left;
+      border-radius:10px;
+    }
+
+    .btn-primary[onclick*="formfacade.com/website/embed-google-forms-endorsement.html"] {
+      display:none; 
+      visibility:hidden;
+    }
+
+    /*.ff-image {
+      width:50%;
+      height:auto;
+      margin: 5px 20px 5px;
+    }*/
+  </style>
+</body>
+</html>

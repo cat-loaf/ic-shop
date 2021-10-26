@@ -4,7 +4,7 @@
 
 
 body {
-  background:linear-gradient(180deg, #bc9cd8, #9cbdd8);
+  background:linear-gradient(180deg, #bc9cd8, #9CCBC7);
 }
 
 
@@ -47,7 +47,11 @@ cust.rainbow-text {
 
 cust.stroked {
   -webkit-text-stroke-width: 0.75px;
-  -webkit-text-stroke-color: rgb(14, 14, 14);
+  -webkit-text-stroke-color: #0e0e0e;
+}
+
+cust.res-col {
+  color:#fff;
 }
 
 cust.strawberry {
@@ -56,6 +60,16 @@ cust.strawberry {
 
 cust.bolded {
   font-weight:700;
+}
+
+cust.chocolate {
+  color:#743310;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width:0.25px;
+}
+
+cust.non-stroke {
+  -webkit-text-stroke-width: 0px;
 }
 
 .money {
@@ -71,10 +85,15 @@ cust.bolded {
 
 
 
+img.gall {
+  border-radius:20px;
+  width:500px;
+  max-width:90%;
+  margin:25px;
+}
 
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   #dessertExample {
     float:none;
     max-width:80%;
@@ -85,9 +104,36 @@ cust.bolded {
     visibility: hidden;
     display:none;
   }
+
+  label[for="Widget483763429"] {
+    visibility: hidden;
+    display:none;
+  }
+
+  .mobile-text-center {
+    text-align:center;
+  }
+
+  #prices {
+    content:'';
+  }
+
+  body {
+    background:linear-gradient(180deg, #bc9cd8,#9cd8b5,#9cbdd8);
+  }
+  a.cell {
+    font-size:1.05em;
+  }
+  a.cell:hover {
+    font-size:1.25em;
+  }
+  
+  table *{
+    font-size:0.95em !important;
+  }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 751px) {
   #sundaeExplanation {
     position: relative;
     top:100px;
@@ -103,6 +149,16 @@ cust.bolded {
     max-width:35%;
   }
 
+  img.gall {
+    max-width:400px !important;
+    height:400px;
+    object-fit:cover;
+  }
+
+  #galleryImages {
+    text-align:center;
+  }
+
   #sundaeExplanation > * {
     text-align:center;
     margin-right:20px;
@@ -113,7 +169,7 @@ cust.bolded {
   }
 
   table.menu {
-    font-size:2em;
+    font-size:1.67em;
   }
 
   aside.menuItems {
